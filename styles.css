@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+font-family: 'Raleway Dots', cursive;
+font-family: 'Codystar', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Vibes', cursive;*/
+
+body {
+  margin: 20px 40px;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: lightgrey;
+  color: #fff;
+}
+
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.topnav #myLinks {
+  display: inline;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+	.topnav a.icon {
+  		background: black;
+  		display: block;
+  		position: absolute;
+  		right: 0;
+  		top: 0;
+		display: block;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.topnav #myLinks {
+  		display: none;
+	}
+}
+
+@media only screen and (min-width: 601px) {
+/* Style the hamburger menu */
+	.topnav a.icon {
+ 		display: none;
+	}
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #333;
+  color: white;
+}
+
+h2 {
+  margin: 10px 0;
+  font-family: 'Raleway Dots', cursive;
+  font-size: 14px;
+}
+img {
+  width: 75%;
+}
+
+
+.header {
+	font-family: 'Codystar', cursive;
+	font-size: 80%; 
+	color: black;
+	margin-top: 20px;
+	text-align: center;
+	background-image: linear-gradient(skyblue, grey);
+	max-width: 960px;
+}
+
+
+.header,
+.footer {
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 0 1 100%;
+  grid-column: 1 / -1;
+}
+
+
+
+body {
+  margin: 40px;
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  padding: 20px;
+  font-size: 3em;
+  color: white;
+  background-color: cadetblue;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Major Mono Display', monospace;
+	text-align: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+
+.cards {
+  max-width: 960px;
+  margin: 0 auto 30px;
+}
+
+article {
+  position: relative;
+}
+
+.article-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.article-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+	padding: 10px;
+  font-size: 1em;
+  color: white;
+  background-color: #333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*.wrapper_portfolio {
+	 display: grid;
+    grid-template-columns: 200px 50px 100px;
+    grid-template-rows: 50px 50px;
+	grid-gap: 10px;*/
+}
+
+/*.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}*/

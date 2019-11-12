@@ -1,0 +1,60 @@
+
+
+title {
+	display: none;
+}
+
+.topnav {
+	display: none;
+}
+
+header, footer {
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	background: fff;
+}
+
+.grid {
+	padding-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+* {
+	color: #000000 !important;
+}
+
+header {
+	padding-bottom: 15pt;
+}
+
+footer {
+	margin-top: 20pt;
+	padding-top: 5pt;
+	border-top: 1pt solid #000;
+	font-size: 10pt !important;
+}
+
+.image3, .image4 {
+	page-break-after: always;
+}
+
+.image5, .image6 {
+	page-break-before: always;
+}
+
+/*.break_after {
+	page-break-after: always;
+}
+
+.break_before {
+	page-break-before: always;
+}*/
+
+a:after {
+	content: "("attr(href)")";
+}
